@@ -1,0 +1,114 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    background: url("../images/rocket.jpeg")
+}
+
+img {
+    width: 300px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+.section-title {
+    margin-left: 15px;
+}
+
+/* HEADER */
+header {
+    background-color: hotpink;
+}
+
+header .inner {
+    margin: 0 auto;
+    max-width: 90%;
+    height: 78px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo-group .logo {
+    width: 51px;
+    height: 51px;
+}
+
+header .logo-title{
+    color: orange;
+}
+
+header .menu-group .menus {
+    display: flex;
+    justify-content: center;
+}
+
+header .menu-group .menus li {
+    padding: 9px; 
+}
+
+header .menu-group .a {
+    font-size: 18px;
+    color: gold;
+}
+
+
+/* PROFILE SECTION */
+.profile-section .inner{
+    text-align: center;
+}
+
+/* VIDEO SECTION */
+.video-section .inner {
+    text-align: center;
+}
+
+.video-section .inner .video {
+    border: solid 3px orange;
+}
+
+/* WORDS SECTION */
+.favorite-words-section .inner {
+    text-align: center;
+}
+
+.favorite-words-section .inner p {
+    width: 700px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+/* FOOD SECTION */
+.favorite-foods-section .inner {
+    display: flex;
+    justify-content: center;
+}
+.favorite-foods-section .inner ol li{
+    list-style: decimal !important;
+    font-size: 21px;
+    color: orangered;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: palegoldenrod;
+}
+
+footer .inner #creator {
+    font-size: 21px;
+}
