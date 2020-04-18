@@ -12,21 +12,23 @@
     </head>
 
     <body>
-      <h1>My Page</h1>
-      <ul>
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
-        <li>d</li>
+      <header>
+        <h1>My Page</h1>
+        <ul>
+          <li><a href="#profile">프로필 소개</a></li>
+          <li><a href="#video">관련 영상</a></li>
+          <li><a href="#favorite words">좋아하는 글귀</a></li>
+          <li><a href="#favorite foods">좋아하는 음식</a></li>
       </ul>
-      <a href="#">링크 입니다.</a> 
+      </header>
+      
+      <!-- PROFILE SECTION -->
+      <section id="profile">
+        <div class="section-title"><h1>프로필 소개</h1></div>
         <div>
-            <span>span 태그</span>
-            <br>
-            <span>span 태그2</span>
-            <br>
-            <div>div 태그</div>
-
+            <span>내 이름은 로켓</span>
+            <span>, 가디언즈오브갤럭시</span>
+            <div>div tag</div>
             <img src="images/rocket.jpeg" alt=""/>
 
             <form method="POST" action="#">
@@ -34,7 +36,11 @@
               <button type="submit">확인</button>
             </form>
         </div>
-
+      </section>
+      
+      <!-- VIDEO SECTION -->
+      <div class="section-title"><h1>관련 영상</h1></div>
+      <section id="video">
         <iframe 
         width="560" 
         height="315" 
@@ -43,20 +49,33 @@
         allow="autoplay; encrypted-media" 
         allowfullscreen>
         </iframe>
+      </section>
 
+      <!-- WORDS SECTION -->
+      <div class="section-title"><h1>좋아하는 글귀</h1></div>
+      <summary id="favorite words">
         <p>
         자신과 않는 풀이 뜨고, 그러므로 그들은 맺어, <strong>사막이다</strong>. 보이는 얼마나 뜨고, 무엇을 이것은 두기 힘차게 듣는다. <br>
         같지 것은 크고 목숨을 얼마나 <i>심장의 영락</i>과 것이다. 것은 같이 밥을 원질이 얼음 얼마나 뿐이다. <br>
          사는가 현저하게 무한한 고동을 피어나는 창공에 지혜는 대고, 가치를 것이다. 청춘은 행복스럽고 아니한 청춘 청춘의 위하여 이성은 때문이다. <br>
         바이며, 하는 풀이 그들의 있다. 풀이 방지하는 안고, 그들에게 낙원을 자신과 보배를 어디 말이다. 석가는 이상의 그것을 대고, 아니다. <br>
         </p>
+      </summary>
 
+      <!-- FOOD SECTION -->
+      <section id="favorite foods">
+      <div class="section-title"><h1>좋아하는 음식</h1></div>
         <ol>
-          <li>가</li>
-          <li>나</li>
-          <li>다</li>
-          <li>라</li>
+          <li>치킨</li>
+          <li>곱창</li>
+          <li>삼겹살</li>
+          <li>아 배고파</li>
         </ol>
+      </section>
 
+      <footer>
+        <span>tel: 010 - xxxx - xxxx</span>
+      </footer>
     </body>
 </html> 
+
