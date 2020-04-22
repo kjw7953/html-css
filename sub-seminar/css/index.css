@@ -1,7 +1,7 @@
 body {
     font-family: 'Noto Sans KR', sans-serif;
     margin: 0;
-    background: url("../images/rocket.jpeg")
+    background: url("../images/background.jpg")
 }
 
 img {
@@ -79,17 +79,33 @@ header .menu-group .a {
 }
 
 /* WORDS SECTION */
-.favorite-words-section .inner {
+.favorite-words-section .section-title h1 {
+    width: 400px;
+    color: black;
+    background-color: white;
     text-align: center;
-}
-
-.favorite-words-section .inner p {
-    width: 700px;
-    background-color: yellow;
     margin: 0 auto;
 }
 
+.favorite-words-section .inner {
+    display: flex;
+    justify-content: center;
+}
+
+.favorite-words-section .inner p {
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+
 /* FOOD SECTION */
+.favorite-foods-section .section-title h1 {
+    width: 200px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+}
 .favorite-foods-section .inner {
     display: flex;
     justify-content: center;
